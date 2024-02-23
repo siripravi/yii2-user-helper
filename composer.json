@@ -1,5 +1,5 @@
 {
-  "name": "siripravi/userhelper",
+  "name": "siripravi/yii2-user-helper",
   "description": "Yii2 helper module for user authentication ",
   "type": "yii2-extension",
   "minimum-stability": "dev",
