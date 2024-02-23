@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace siripravi\authhelper;
+namespace siripravi\userhelper;
 
 use siripray\userhelper\mail\RegistrationEmail;
 use siripray\userhelper\models\Token;
