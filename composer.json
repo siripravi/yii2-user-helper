@@ -1,0 +1,32 @@
+{
+  "name": "siripravi/userhelper",
+  "description": "Yii2 helper module for user authentication ",
+  "type": "yii2-extension",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "siripravi\\userhelper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "siripravi",
+      "email": "purnachandra.valluri@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "bootstrap": "siripravi\\userhelper\\Bootstrap"
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
