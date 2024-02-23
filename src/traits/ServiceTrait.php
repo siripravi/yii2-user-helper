@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\traits;
+namespace siripravi\userhelper\traits;
 
-use siripray\userhelper\service\ConfirmationService;
+use siripravi\userhelper\service\ConfirmationService;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>

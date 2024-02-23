@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models;
+namespace siripravi\userhelper\models;
 
 
-use siripray\userhelper\traits\ModuleTrait;
+use siripravi\userhelper\traits\ModuleTrait;
 use yii\db\ActiveRecord;
 
 /**

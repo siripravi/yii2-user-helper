@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\controllers;
+namespace siripravi\userhelper\controllers;
 
-use siripray\userhelper\service\exceptions\ServiceException;
-use siripray\userhelper\service\RegistrationService;
-use siripray\userhelper\service\ConfirmationService;
-use siripray\userhelper\models\Account;
-use siripray\userhelper\models\RegistrationForm;
-use siripray\userhelper\models\ResendForm;
-use siripray\userhelper\models\User;
-use siripray\userhelper\traits\AjaxValidationTrait;
-use siripray\userhelper\traits\EventTrait;
+use siripravi\userhelper\service\exceptions\ServiceException;
+use siripravi\userhelper\service\RegistrationService;
+use siripravi\userhelper\service\ConfirmationService;
+use siripravi\userhelper\models\Account;
+use siripravi\userhelper\models\RegistrationForm;
+use siripravi\userhelper\models\ResendForm;
+use siripravi\userhelper\models\User;
+use siripravi\userhelper\traits\AjaxValidationTrait;
+use siripravi\userhelper\traits\EventTrait;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -28,7 +28,7 @@ use yii\web\NotFoundHttpException;
  * RegistrationController is responsible for all registration process, which includes registration of a new account,
  * resending confirmation tokens, email confirmation and registration via social networks.
  *
- * @property \siripray\userhelper\Module $module
+ * @property \siripravi\userhelper\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -39,49 +39,49 @@ class RegistrationController extends Controller
 
     /**
      * Event is triggered after creating RegistrationForm class.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_BEFORE_REGISTER = 'beforeRegister';
 
     /**
      * Event is triggered after successful registration.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_AFTER_REGISTER = 'afterRegister';
 
     /**
      * Event is triggered before connecting user to social account.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_CONNECT = 'beforeConnect';
 
     /**
      * Event is triggered after connecting user to social account.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_CONNECT = 'afterConnect';
 
     /**
      * Event is triggered before confirming user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_CONFIRM = 'beforeConfirm';
 
     /**
      * Event is triggered before confirming user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_CONFIRM = 'afterConfirm';
 
     /**
      * Event is triggered after creating ResendForm class.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_BEFORE_RESEND = 'beforeResend';
 
     /**
      * Event is triggered after successful resending of confirmation email.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_AFTER_RESEND = 'afterResend';
 

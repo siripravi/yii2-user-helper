@@ -17,9 +17,9 @@ need to following the instructions for both A and B.
 - Removed `enableConfirmation` and `enableUnconfirmedLogin` module's properties. Instead you need to configure confirmation
  service which got a few new options. More information on how to configure it can be found in [guide](docs/confirmation.md)
 
-- `siripray\userhelper\helpers\Password` helper has been removed. If you need to generate password then use
- `siripray\userhelper\helpers\PasswordGenerator` helper instead. If you used it to hash and validate user's password, then
- use methods `hashPassword` and `validatePassword` of `siripray\userhelper\models\User`
+- `siripravi\userhelper\helpers\Password` helper has been removed. If you need to generate password then use
+ `siripravi\userhelper\helpers\PasswordGenerator` helper instead. If you used it to hash and validate user's password, then
+ use methods `hashPassword` and `validatePassword` of `siripravi\userhelper\models\User`
 
 - `cost` module's property has been removed. If you used custom cost value, then you should set it through 
  `passwordHashCost` property of `security` component.
@@ -60,7 +60,7 @@ should set them via `modelMap` module's property.
 ```php
 'modules' => [
     'user' => [
-        'class' => 'siripray\userhelper\Module',
+        'class' => 'siripravi\userhelper\Module',
         'components' => [
             'manager' => [
                 'User' => 'your\model\User',
@@ -77,7 +77,7 @@ should set them via `modelMap` module's property.
 ```php
 'modules' => [
     'user' => [
-        'class' => 'siripray\userhelper\Module',
+        'class' => 'siripravi\userhelper\Module',
         'modelMap' => [
             'User' => 'your\model\User',
             'Profile' => 'your\model\Profile',
@@ -95,7 +95,7 @@ module property. You can read more about mailer configuration [here](docs/mailer
 ```php
 'modules' => [
     'user' => [
-        'class' => 'siripray\userhelper\Module',
+        'class' => 'siripravi\userhelper\Module',
         'components' => [
             'mailer' => [
                 'sender' => 'noreply@myhost.com',
@@ -110,7 +110,7 @@ module property. You can read more about mailer configuration [here](docs/mailer
 ```php
 'modules' => [
     'user' => [
-        'class' => 'siripray\userhelper\Module',
+        'class' => 'siripravi\userhelper\Module',
         'mailer' => [
             'sender' => 'noreply@myhost.com',
         ],

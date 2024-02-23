@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models;
+namespace siripravi\userhelper\models;
 
-use siripray\userhelper\clients\ClientInterface;
-use siripray\userhelper\models\query\AccountQuery;
-use siripray\userhelper\traits\ModuleTrait;
+use siripravi\userhelper\clients\ClientInterface;
+use siripravi\userhelper\models\query\AccountQuery;
+use siripravi\userhelper\traits\ModuleTrait;
 use yii\authclient\ClientInterface as BaseClientInterface;
 use yii\db\ActiveRecord;
 

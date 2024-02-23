@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\service;
+namespace siripravi\userhelper\service;
 
-use siripray\userhelper\events\RegistrationEvent;
-use siripray\userhelper\helpers\PasswordGenerator;
-use siripray\userhelper\mail\RegistrationEmail;
-use siripray\userhelper\Mailer;
-use siripray\userhelper\models\RegistrationForm;
-use siripray\userhelper\models\User;
+use siripravi\userhelper\events\RegistrationEvent;
+use siripravi\userhelper\helpers\PasswordGenerator;
+use siripravi\userhelper\mail\RegistrationEmail;
+use siripravi\userhelper\Mailer;
+use siripravi\userhelper\models\RegistrationForm;
+use siripravi\userhelper\models\User;
 use yii\base\Component;
 use yii\helpers\ArrayHelper;
 

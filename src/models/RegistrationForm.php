@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models;
+namespace siripravi\userhelper\models;
 
-use siripray\userhelper\service\RegistrationService;
+use siripravi\userhelper\service\RegistrationService;
 use yii\base\Model;
 
 /**

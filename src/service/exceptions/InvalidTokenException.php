@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\service\exceptions;
+namespace siripravi\userhelper\service\exceptions;
 
 /**
  * Invalid token exception is thrown when invalid token is used by user.

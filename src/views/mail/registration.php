@@ -12,7 +12,7 @@
 use yii\helpers\Html;
 
 /**
- * @var siripray\userhelper\mail\RegistrationEmail $email
+ * @var siripravi\userhelper\mail\RegistrationEmail $email
  */
 
 ?>

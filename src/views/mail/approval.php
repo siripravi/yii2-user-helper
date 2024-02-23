@@ -12,9 +12,9 @@
 use yii\helpers\Html;
 
 /**
- * @var siripray\userhelper\Module        $module
- * @var siripray\userhelper\models\User   $user
- * @var siripray\userhelper\models\Token  $token
+ * @var siripravi\userhelper\Module        $module
+ * @var siripravi\userhelper\models\User   $user
+ * @var siripravi\userhelper\models\Token  $token
  * @var bool                        $showPassword
  */
 

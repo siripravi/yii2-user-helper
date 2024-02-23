@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models;
+namespace siripravi\userhelper\models;
 
 use yii\base\Model;
-use siripray\userhelper\Mailer;
-use siripray\userhelper\Finder;
+use siripravi\userhelper\Mailer;
+use siripravi\userhelper\Finder;
 
 /**
  * ResendForm gets user email address and if user with given email is registered it sends new confirmation message

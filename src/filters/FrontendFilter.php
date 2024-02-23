@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\filters;
+namespace siripravi\userhelper\filters;
 
 use yii\base\ActionFilter;
 use yii\web\NotFoundHttpException;

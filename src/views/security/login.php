@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-use siripray\userhelper\helpers\FeatureHelper;
-use siripray\userhelper\widgets\Connect;
+use siripravi\userhelper\helpers\FeatureHelper;
+use siripravi\userhelper\widgets\Connect;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /**
  * @var yii\web\View                   $this
- * @var siripray\userhelper\models\LoginForm $model
- * @var siripray\userhelper\Module           $module
+ * @var siripravi\userhelper\models\LoginForm $model
+ * @var siripravi\userhelper\Module           $module
  */
 
 $this->title = Yii::t('user', 'Sign in');

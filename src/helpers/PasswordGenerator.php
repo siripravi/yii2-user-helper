@@ -1,6 +1,6 @@
 <?php
 
-namespace siripray\userhelper\helpers;
+namespace siripravi\userhelper\helpers;
 use yii\base\Object;
 
 /**

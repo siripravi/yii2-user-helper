@@ -11,7 +11,7 @@
 
 /**
  * @var yii\web\View
- * @var siripray\userhelper\models\User
+ * @var siripravi\userhelper\models\User
  */
 ?>
 

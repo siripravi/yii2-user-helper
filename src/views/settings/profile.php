@@ -14,7 +14,7 @@ use yii\helpers\Html;
 /**
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var siripray\userhelper\models\Profile $profile
+ * @var siripravi\userhelper\models\Profile $profile
  */
 
 $this->title = Yii::t('user', 'Profile settings');
@@ -55,7 +55,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     ->field($model, 'timezone')
                     ->dropDownList(
                         \yii\helpers\ArrayHelper::map(
-                            \siripray\userhelper\helpers\Timezone::getAll(),
+                            \siripravi\userhelper\helpers\Timezone::getAll(),
                             'timezone',
                             'name'
                         )

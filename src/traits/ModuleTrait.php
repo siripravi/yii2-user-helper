@@ -1,14 +1,14 @@
 <?php
 
 
-namespace siripray\userhelper\traits;
+namespace siripravi\userhelper\traits;
 
-use siripray\userhelper\Module;
+use siripravi\userhelper\Module;
 
 /**
  * Trait ModuleTrait
  * @property-read Module $module
- * @package siripray\userhelper\traits
+ * @package siripravi\userhelper\traits
  */
 trait ModuleTrait
 {

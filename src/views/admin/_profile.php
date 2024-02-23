@@ -14,8 +14,8 @@ use yii\helpers\Html;
 
 /**
  * @var yii\web\View                    $this
- * @var siripray\userhelper\models\User       $user
- * @var siripray\userhelper\models\Profile    $profile
+ * @var siripravi\userhelper\models\User       $user
+ * @var siripravi\userhelper\models\Profile    $profile
  */
 
 ?>

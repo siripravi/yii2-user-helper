@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models\query;
+namespace siripravi\userhelper\models\query;
 
-use siripray\userhelper\models\Account;
+use siripravi\userhelper\models\Account;
 use yii\authclient\ClientInterface;
 use yii\db\ActiveQuery;
 

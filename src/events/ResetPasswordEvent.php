@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\events;
+namespace siripravi\userhelper\events;
 
-use siripray\userhelper\models\RecoveryForm;
-use siripray\userhelper\models\Token;
+use siripravi\userhelper\models\RecoveryForm;
+use siripravi\userhelper\models\Token;
 use yii\base\Event;
 
 /**

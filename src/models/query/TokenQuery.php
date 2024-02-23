@@ -9,8 +9,8 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models\query;
-use siripray\userhelper\models\Token;
+namespace siripravi\userhelper\models\query;
+use siripravi\userhelper\models\Token;
 use yii\db\ActiveQuery;
 
 /**

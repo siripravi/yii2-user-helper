@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\controllers;
+namespace siripravi\userhelper\controllers;
 
-use siripray\userhelper\models\Account;
-use siripray\userhelper\models\Profile;
-use siripray\userhelper\models\SettingsForm;
-use siripray\userhelper\models\User;
-use siripray\userhelper\Module;
-use siripray\userhelper\traits\AjaxValidationTrait;
-use siripray\userhelper\traits\EventTrait;
+use siripravi\userhelper\models\Account;
+use siripravi\userhelper\models\Profile;
+use siripravi\userhelper\models\SettingsForm;
+use siripravi\userhelper\models\User;
+use siripravi\userhelper\Module;
+use siripravi\userhelper\traits\AjaxValidationTrait;
+use siripravi\userhelper\traits\EventTrait;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
@@ -26,7 +26,7 @@ use yii\web\NotFoundHttpException;
 /**
  * SettingsController manages updating user settings (e.g. profile, email and password).
  *
- * @property \siripray\userhelper\Module $module
+ * @property \siripravi\userhelper\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -37,61 +37,61 @@ class SettingsController extends Controller
 
     /**
      * Event is triggered before updating user's profile.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_PROFILE_UPDATE = 'beforeProfileUpdate';
 
     /**
      * Event is triggered after updating user's profile.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_PROFILE_UPDATE = 'afterProfileUpdate';
 
     /**
      * Event is triggered before updating user's account settings.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_BEFORE_ACCOUNT_UPDATE = 'beforeAccountUpdate';
 
     /**
      * Event is triggered after updating user's account settings.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_AFTER_ACCOUNT_UPDATE = 'afterAccountUpdate';
 
     /**
      * Event is triggered before changing users' email address.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_CONFIRM = 'beforeConfirm';
 
     /**
      * Event is triggered after changing users' email address.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_CONFIRM = 'afterConfirm';
 
     /**
      * Event is triggered before disconnecting social account from user.
-     * Triggered with \siripray\userhelper\events\ConnectEvent.
+     * Triggered with \siripravi\userhelper\events\ConnectEvent.
      */
     const EVENT_BEFORE_DISCONNECT = 'beforeDisconnect';
 
     /**
      * Event is triggered after disconnecting social account from user.
-     * Triggered with \siripray\userhelper\events\ConnectEvent.
+     * Triggered with \siripravi\userhelper\events\ConnectEvent.
      */
     const EVENT_AFTER_DISCONNECT = 'afterDisconnect';
 
     /**
      * Event is triggered before deleting user's account.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_DELETE = 'beforeDelete';
 
     /**
      * Event is triggered after deleting user's account.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_DELETE = 'afterDelete';
 

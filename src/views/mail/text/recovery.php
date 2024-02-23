@@ -10,8 +10,8 @@
  */
 
 /**
- * @var siripray\userhelper\models\User   $user
- * @var siripray\userhelper\models\Token  $token
+ * @var siripravi\userhelper\models\User   $user
+ * @var siripravi\userhelper\models\Token  $token
  */
 ?>
 <?= Yii::t('user', 'Hello') ?>,

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use siripray\userhelper\models\User;
+use siripravi\userhelper\models\User;
 use yii\bootstrap\Nav;
 use yii\web\View;
 

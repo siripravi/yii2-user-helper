@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\widgets;
+namespace siripravi\userhelper\widgets;
 
-use siripray\userhelper\models\LoginForm;
+use siripravi\userhelper\models\LoginForm;
 use yii\base\Widget;
 
 /**

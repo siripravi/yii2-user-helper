@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\mail;
+namespace siripravi\userhelper\mail;
 
-use siripray\userhelper\models\User;
+use siripravi\userhelper\models\User;
 use yii\base\BaseObject;
 
 /**

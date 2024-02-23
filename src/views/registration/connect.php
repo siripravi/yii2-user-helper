@@ -15,8 +15,8 @@ use yii\widgets\ActiveForm;
 /**
  * @var yii\web\View                    $this
  * @var yii\widgets\ActiveForm          $form
- * @var siripray\userhelper\models\User       $model
- * @var siripray\userhelper\models\Account    $account
+ * @var siripravi\userhelper\models\User       $model
+ * @var siripravi\userhelper\models\Account    $account
  */
 
 $this->title = Yii::t('user', 'Sign in');

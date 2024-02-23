@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models;
+namespace siripravi\userhelper\models;
 
-use siripray\userhelper\helpers\FeatureHelper;
-use siripray\userhelper\models\query\UserQuery;
+use siripravi\userhelper\helpers\FeatureHelper;
+use siripravi\userhelper\models\query\UserQuery;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;

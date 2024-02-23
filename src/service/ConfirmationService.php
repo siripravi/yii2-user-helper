@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\service;
+namespace siripravi\userhelper\service;
 
-use siripray\userhelper\service\exceptions\InvalidTokenException;
-use siripray\userhelper\service\exceptions\InvalidUserException;
-use siripray\userhelper\events\RegistrationEvent;
-use siripray\userhelper\events\UserEvent;
-use siripray\userhelper\mail\RegistrationEmail;
-use siripray\userhelper\Mailer;
-use siripray\userhelper\models\Token;
-use siripray\userhelper\models\User;
+use siripravi\userhelper\service\exceptions\InvalidTokenException;
+use siripravi\userhelper\service\exceptions\InvalidUserException;
+use siripravi\userhelper\events\RegistrationEvent;
+use siripravi\userhelper\events\UserEvent;
+use siripravi\userhelper\mail\RegistrationEmail;
+use siripravi\userhelper\Mailer;
+use siripravi\userhelper\models\Token;
+use siripravi\userhelper\models\User;
 use yii\base\Component;
 use yii\base\Event;
 

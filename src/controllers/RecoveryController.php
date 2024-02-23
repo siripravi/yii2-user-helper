@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\controllers;
+namespace siripravi\userhelper\controllers;
 
-use siripray\userhelper\models\RecoveryForm;
-use siripray\userhelper\models\Token;
-use siripray\userhelper\traits\AjaxValidationTrait;
-use siripray\userhelper\traits\EventTrait;
+use siripravi\userhelper\models\RecoveryForm;
+use siripravi\userhelper\models\Token;
+use siripravi\userhelper\traits\AjaxValidationTrait;
+use siripravi\userhelper\traits\EventTrait;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -22,7 +22,7 @@ use yii\web\NotFoundHttpException;
 /**
  * RecoveryController manages password recovery process.
  *
- * @property \siripray\userhelper\Module $module
+ * @property \siripravi\userhelper\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -33,37 +33,37 @@ class RecoveryController extends Controller
 
     /**
      * Event is triggered before requesting password reset.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_BEFORE_REQUEST = 'beforeRequest';
 
     /**
      * Event is triggered after requesting password reset.
-     * Triggered with \siripray\userhelper\events\FormEvent.
+     * Triggered with \siripravi\userhelper\events\FormEvent.
      */
     const EVENT_AFTER_REQUEST = 'afterRequest';
 
     /**
      * Event is triggered before validating recovery token.
-     * Triggered with \siripray\userhelper\events\ResetPasswordEvent. May not have $form property set.
+     * Triggered with \siripravi\userhelper\events\ResetPasswordEvent. May not have $form property set.
      */
     const EVENT_BEFORE_TOKEN_VALIDATE = 'beforeTokenValidate';
 
     /**
      * Event is triggered after validating recovery token.
-     * Triggered with \siripray\userhelper\events\ResetPasswordEvent. May not have $form property set.
+     * Triggered with \siripravi\userhelper\events\ResetPasswordEvent. May not have $form property set.
      */
     const EVENT_AFTER_TOKEN_VALIDATE = 'afterTokenValidate';
 
     /**
      * Event is triggered before resetting password.
-     * Triggered with \siripray\userhelper\events\ResetPasswordEvent.
+     * Triggered with \siripravi\userhelper\events\ResetPasswordEvent.
      */
     const EVENT_BEFORE_RESET = 'beforeReset';
 
     /**
      * Event is triggered after resetting password.
-     * Triggered with \siripray\userhelper\events\ResetPasswordEvent.
+     * Triggered with \siripravi\userhelper\events\ResetPasswordEvent.
      */
     const EVENT_AFTER_RESET = 'afterReset';
 

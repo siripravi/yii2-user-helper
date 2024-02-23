@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use siripray\userhelper\migrations\Migration;
+use siripravi\userhelper\migrations\Migration;
 use yii\db\Schema;
 
 /**

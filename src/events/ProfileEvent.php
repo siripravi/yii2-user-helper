@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\events;
+namespace siripravi\userhelper\events;
 
-use siripray\userhelper\models\Profile;
+use siripravi\userhelper\models\Profile;
 use yii\base\Event;
 
 /**

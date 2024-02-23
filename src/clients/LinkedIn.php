@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\clients;
+namespace siripravi\userhelper\clients;
 
 use yii\authclient\clients\LinkedIn as BaseLinkedIn;
 

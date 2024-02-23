@@ -16,7 +16,7 @@ use yii\helpers\Html;
 /**
  * @var yii\web\View                   $this
  * @var yii\widgets\ActiveForm         $form
- * @var siripray\userhelper\models\LoginForm $model
+ * @var siripravi\userhelper\models\LoginForm $model
  * @var string                         $action
  */
 

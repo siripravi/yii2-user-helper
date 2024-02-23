@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\helpers;
+namespace siripravi\userhelper\helpers;
 
-use siripray\userhelper\service\RegistrationService;
-use siripray\userhelper\service\ConfirmationService;
+use siripravi\userhelper\service\RegistrationService;
+use siripravi\userhelper\service\ConfirmationService;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>

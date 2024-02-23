@@ -11,7 +11,7 @@
 
 /**
  * @var yii\widgets\ActiveForm      $form
- * @var siripray\userhelper\models\User   $user
+ * @var siripravi\userhelper\models\User   $user
  */
 ?>
 

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\traits;
+namespace siripravi\userhelper\traits;
 
 use yii\base\Model;
 use yii\web\Response;

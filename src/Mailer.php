@@ -11,9 +11,9 @@
 
 namespace siripravi\userhelper;
 
-use siripray\userhelper\mail\RegistrationEmail;
-use siripray\userhelper\models\Token;
-use siripray\userhelper\models\User;
+use siripravi\userhelper\mail\RegistrationEmail;
+use siripravi\userhelper\models\Token;
+use siripravi\userhelper\models\User;
 use Yii;
 use yii\base\Component;
 
@@ -62,7 +62,7 @@ class Mailer extends Component
     protected $approvalSubject;
 
     /**
-     * @var \siripray\userhelper\Module
+     * @var \siripravi\userhelper\Module
      */
     protected $module;
 

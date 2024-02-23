@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use siripray\userhelper\widgets\Connect;
+use siripravi\userhelper\widgets\Connect;
 use yii\helpers\Html;
 
 /*

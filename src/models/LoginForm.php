@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models;
+namespace siripravi\userhelper\models;
 
-use siripray\userhelper\service\ConfirmationService;
-use siripray\userhelper\traits\ServiceTrait;
+use siripravi\userhelper\service\ConfirmationService;
+use siripravi\userhelper\traits\ServiceTrait;
 use Yii;
 use yii\base\Model;
-use siripray\userhelper\traits\ModuleTrait;
+use siripravi\userhelper\traits\ModuleTrait;
 
 /**
  * LoginForm get user's login and password, validates them and logs the user in. If user has been blocked, it adds
@@ -44,7 +44,7 @@ class LoginForm extends Model
     public $rememberMe = false;
 
     /**
-     * @var \siripray\userhelper\models\User
+     * @var \siripravi\userhelper\models\User
      */
     protected $user;
 

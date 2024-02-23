@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\traits;
+namespace siripravi\userhelper\traits;
 
-use siripray\userhelper\events\AuthEvent;
-use siripray\userhelper\events\ConnectEvent;
-use siripray\userhelper\events\FormEvent;
-use siripray\userhelper\events\ProfileEvent;
-use siripray\userhelper\events\ResetPasswordEvent;
-use siripray\userhelper\events\UserEvent;
-use siripray\userhelper\models\Account;
-use siripray\userhelper\models\Profile;
-use siripray\userhelper\models\RecoveryForm;
-use siripray\userhelper\models\Token;
-use siripray\userhelper\models\User;
+use siripravi\userhelper\events\AuthEvent;
+use siripravi\userhelper\events\ConnectEvent;
+use siripravi\userhelper\events\FormEvent;
+use siripravi\userhelper\events\ProfileEvent;
+use siripravi\userhelper\events\ResetPasswordEvent;
+use siripravi\userhelper\events\UserEvent;
+use siripravi\userhelper\models\Account;
+use siripravi\userhelper\models\Profile;
+use siripravi\userhelper\models\RecoveryForm;
+use siripravi\userhelper\models\Token;
+use siripravi\userhelper\models\User;
 use yii\authclient\ClientInterface;
 use yii\base\Model;
 

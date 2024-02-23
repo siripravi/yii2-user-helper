@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-use siripray\userhelper\helpers\FeatureHelper;
-use siripray\userhelper\models\User;
-use siripray\userhelper\models\UserSearch;
+use siripravi\userhelper\helpers\FeatureHelper;
+use siripravi\userhelper\models\User;
+use siripravi\userhelper\models\UserSearch;
 use yii\bootstrap\ActiveForm;
 use yii\bootstrap\ButtonDropdown;
 use yii\bootstrap\ToggleButtonGroup;

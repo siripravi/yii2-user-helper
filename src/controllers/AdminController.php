@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\controllers;
+namespace siripravi\userhelper\controllers;
 
-use siripray\userhelper\service\ConfirmationService;
-use siripray\userhelper\filters\AccessRule;
-use siripray\userhelper\models\Profile;
-use siripray\userhelper\models\User;
-use siripray\userhelper\models\UserSearch;
-use siripray\userhelper\Module;
-use siripray\userhelper\traits\EventTrait;
-use siripray\userhelper\traits\ServiceTrait;
+use siripravi\userhelper\service\ConfirmationService;
+use siripravi\userhelper\filters\AccessRule;
+use siripravi\userhelper\models\Profile;
+use siripravi\userhelper\models\User;
+use siripravi\userhelper\models\UserSearch;
+use siripravi\userhelper\Module;
+use siripravi\userhelper\traits\EventTrait;
+use siripravi\userhelper\traits\ServiceTrait;
 use yii\base\ExitException;
 use yii\base\Model;
 use yii\filters\AccessControl;
@@ -43,97 +43,97 @@ class AdminController extends Controller
 
     /**
      * Event is triggered before creating new user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_CREATE = 'beforeCreate';
 
     /**
      * Event is triggered after creating new user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_CREATE = 'afterCreate';
 
     /**
      * Event is triggered before updating existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_UPDATE = 'beforeUpdate';
 
     /**
      * Event is triggered after updating existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_UPDATE = 'afterUpdate';
 
     /**
      * Event is triggered before updating existing user's profile.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_PROFILE_UPDATE = 'beforeProfileUpdate';
 
     /**
      * Event is triggered after updating existing user's profile.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_PROFILE_UPDATE = 'afterProfileUpdate';
 
     /**
      * Event is triggered before confirming existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_CONFIRM = 'beforeConfirm';
 
     /**
      * Event is triggered after confirming existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_CONFIRM = 'afterConfirm';
 
     /**
      * Event is triggered before approving existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_APPROVE = 'beforeApprove';
 
     /**
      * Event is triggered after approving existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_APPROVE = 'afterApprove';
 
     /**
      * Event is triggered before deleting existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_DELETE = 'beforeDelete';
 
     /**
      * Event is triggered after deleting existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_DELETE = 'afterDelete';
 
     /**
      * Event is triggered before blocking existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_BLOCK = 'beforeBlock';
 
     /**
      * Event is triggered after blocking existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_BLOCK = 'afterBlock';
 
     /**
      * Event is triggered before unblocking existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_BEFORE_UNBLOCK = 'beforeUnblock';
 
     /**
      * Event is triggered after unblocking existing user.
-     * Triggered with \siripray\userhelper\events\UserEvent.
+     * Triggered with \siripravi\userhelper\events\UserEvent.
      */
     const EVENT_AFTER_UNBLOCK = 'afterUnblock';
 

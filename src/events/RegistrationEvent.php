@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\events;
+namespace siripravi\userhelper\events;
 
-use siripray\userhelper\mail\RegistrationEmail;
-use siripray\userhelper\models\User;
+use siripravi\userhelper\mail\RegistrationEmail;
+use siripravi\userhelper\models\User;
 
 /**
  * @property RegistrationEmail $email

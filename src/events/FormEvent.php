@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\events;
+namespace siripravi\userhelper\events;
 
 use yii\base\Event;
 use yii\base\Model;

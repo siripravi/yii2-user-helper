@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\controllers;
+namespace siripravi\userhelper\controllers;
 
-use siripray\userhelper\models\User;
+use siripravi\userhelper\models\User;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -19,7 +19,7 @@ use yii\web\NotFoundHttpException;
 /**
  * ProfileController shows users profiles.
  *
- * @property \siripray\userhelper\Module $module
+ * @property \siripravi\userhelper\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

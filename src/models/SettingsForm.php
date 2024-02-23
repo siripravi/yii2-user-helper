@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\models;
+namespace siripravi\userhelper\models;
 
-use siripray\userhelper\helpers\Password;
-use siripray\userhelper\Mailer;
-use siripray\userhelper\Module;
-use siripray\userhelper\traits\ModuleTrait;
+use siripravi\userhelper\helpers\Password;
+use siripravi\userhelper\Mailer;
+use siripravi\userhelper\Module;
+use siripravi\userhelper\traits\ModuleTrait;
 use Yii;
 use yii\base\Model;
 

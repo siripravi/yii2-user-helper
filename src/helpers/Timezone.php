@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace siripray\userhelper\helpers;
+namespace siripravi\userhelper\helpers;
 
 /**
  * Password helper.
