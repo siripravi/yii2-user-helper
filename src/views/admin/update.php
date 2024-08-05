@@ -10,7 +10,7 @@
  */
 
 use siripravi\userhelper\models\User;
-use yii\bootstrap\Nav;
+use yii\bootstrap5\Nav;
 use yii\web\View;
 
 /**

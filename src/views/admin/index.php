@@ -12,9 +12,9 @@
 use siripravi\userhelper\helpers\FeatureHelper;
 use siripravi\userhelper\models\User;
 use siripravi\userhelper\models\UserSearch;
-use yii\bootstrap\ActiveForm;
-use yii\bootstrap\ButtonDropdown;
-use yii\bootstrap\ToggleButtonGroup;
+use yii\bootstrap5\ActiveForm;
+use yii\bootstrap5\ButtonDropdown;
+use yii\bootstrap5\ToggleButtonGroup;
 use yii\data\ActiveDataProvider;
 use yii\grid\GridView;
 use yii\helpers\Html;
