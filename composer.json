@@ -3,7 +3,7 @@
   "description": "Yii2 helper module for user authentication ",
   "type": "yii2-extension",
   "minimum-stability": "dev",
-  "license": "GPL-2.0-or-later",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "siripravi\\userhelper\\": "src/"
