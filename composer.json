@@ -3,6 +3,7 @@
   "description": "Yii2 helper module for user authentication ",
   "type": "yii2-extension",
   "minimum-stability": "dev",
+  "license": "UNLICENCED",
   "autoload": {
     "psr-4": {
       "siripravi\\userhelper\\": "src/"
